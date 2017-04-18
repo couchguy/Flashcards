@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashcards</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit">Edit Flash Card Set</string>
+    <string name="study">Study Flash Card Set</string>
+    <string name="action_add">Add</string>
+
+</resources>

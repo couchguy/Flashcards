@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+	<ImageButton
+    	android:id="@+id/imgEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center" 
+        android:background="@drawable/edit"
+        android:onClick="EditActivity" 
+        android:layout_marginTop = "75dp"/>
+    <TextView 
+    	android:id="@+id/editView"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/edit" />
+        
+    <ImageButton
+    	android:id="@+id/imgStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:background="@drawable/study" 
+        android:onClick="StudyActivity"
+        android:layout_marginTop = "100dp" />
+    <TextView
+    	android:id="@+id/studyView"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/study" />
+
+</LinearLayout>
